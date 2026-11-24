@@ -1,0 +1,32 @@
+TALLER 6 - RESPUESTAS PARTE 1
+Integrante A: Carlos Barria
+Integrante B: Carlos Barria2
+Fecha: 11/23/2026
+
+──────────────────────────────────────────
+1. ¿Qué índice tiene el último elemento de un arreglo de tamaño 5?
+
+RESPUESTA: El último índice es el 4, porque en Java los arreglos empiezan desde 0 y no desde 1
+
+
+
+2. ¿Qué pasa si intentas acceder a notas[5] en este arreglo? ¿Qué error esperas?
+
+RESPUESTA:El programa dará un error porque esa posición no existe. En un arreglo de 5 elementos solo se puede llegar hasta la posición 4. El error se llama ArrayIndexOutOfBoundsException.
+
+
+
+3. ¿Por qué se inicializa maximo = notas[0] en vez de maximo = 0?
+
+RESPUESTA:Porque así empezamos comparando con una nota que realmente está dentro del arreglo. Si ponemos 0, podríamos obtener un resultado incorrecto si todas las notas fueran negativas.
+
+
+
+4. ¿Qué significa (double) antes de suma? ¿Qué pasaría si lo quitas?
+
+RESPUESTA:Significa que estamos convirtiendo la suma a un número decimal para que el promedio pueda tener decimales. Si lo quitamos, Java podría hacer una división entera y perder los números después del punto decimal.
+
+
+
+MODIFICACIÓN REALIZADA (describe qué cambiaste y cuál fue el resultado): Borre la linea que limita el maximo de datos e hice que se generara directamente las notas.
+
