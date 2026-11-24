@@ -1,0 +1,31 @@
+TALLER 6 - RESPUESTAS PARTE 2
+Integrante A: Carlos Barria
+Integrante B: Carlos Barria2
+
+──────────────────────────────────────────
+1. ¿Cómo accedes al valor 88 (Luis en Español) usando índices?
+
+RESPUESTA:Se accede usando calificaciones[1][1], porque Luis está en la segunda fila y Español en la segunda columna. En Java los índices comienzan desde 0.
+
+
+──────────────────────────────────────────
+2. ¿Cuántos bucles for necesitas para recorrer todos los elementos de un arreglo 2D? ¿Por qué?
+
+RESPUESTA:Se necesitan dos bucles for: uno para recorrer las filas y otro para recorrer las columnas. Esto permite revisar cada elemento de la matriz.
+
+
+──────────────────────────────────────────
+3. Si agregas un cuarto estudiante, ¿qué línea de código tendrías que cambiar?
+
+RESPUESTA:Tendría que cambiar la cantidad de filas de la matriz de 3 a 4, agregar el nombre del nuevo estudiante al arreglo y colocar sus tres calificaciones. En este caso agregué a Pedro con las notas 78, 65 y 92.
+
+
+──────────────────────────────────────────
+4. ¿Qué significa String.format("%-12d", valor)? ¿Qué cambia si quitas el -?
+
+RESPUESTA:Sirve para mostrar un número entero ocupando un espacio de 12 caracteres y alineándolo a la izquierda. Si quito el signo menos, el número se alinea a la derecha.
+
+
+──────────────────────────────────────────
+MODIFICACIÓN REALIZADA (describe qué cambiaste y el nuevo promedio de columna): Agregué un cuarto estudiante llamado Pedro con las calificaciones 78 en Matemática, 65 en Español y 92 en Ciencias. Su promedio es 78.33.
+
