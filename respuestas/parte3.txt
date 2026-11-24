@@ -1,0 +1,33 @@
+TALLER 6 - RESPUESTAS PARTE 3
+Integrante A: ___________________________
+Integrante B: ___________________________
+
+──────────────────────────────────────────
+1. ¿Qué contiene productos[0] antes de ejecutar new Producto(...)?
+
+RESPUESTA:Antes de ejecutar new Producto(...), productos[0] contiene null, porque el arreglo ya está creado, pero todavía no se ha guardado ningún objeto en esa posición.
+
+
+──────────────────────────────────────────
+2. ¿Qué diferencia hay entre productos[i].precio y productos[i].valorTotal()?
+
+RESPUESTA:productos[i].precio permite obtener directamente el precio del producto, mientras que productos[i].valorTotal() llama a un método que multiplica el precio por la cantidad disponible en stock.
+
+
+──────────────────────────────────────────
+3. Cuando haces masEconomico = productos[i], ¿se copian los datos del objeto
+   o solo la referencia? ¿Qué implica eso?
+
+RESPUESTA:Solo se copia la referencia, no los datos del objeto. Esto significa que ambas variables apuntan al mismo producto, por lo que cualquier cambio realizado desde una de ellas también se verá reflejado en la otra.
+
+
+──────────────────────────────────────────
+4. Después del descuento, ¿el valorTotalInventario impreso refleja el nuevo
+   precio? ¿Por qué?
+
+RESPUESTA:No, el valor total del inventario no refleja el nuevo precio porque se calcula antes de aplicar el descuento. Para actualizarlo, habría que volver a recorrer los productos y calcular el total nuevamente.
+
+
+──────────────────────────────────────────
+MODIFICACIÓN REALIZADA (producto agregado y producto con mayor stock afectado):Se agregó el producto Audífonos al inventario, con un precio de $75.00 y 30 unidades en stock. Como era el producto con mayor cantidad de unidades, se le aplicó un descuento del 15%, dejando su precio final en $63.75.
+
