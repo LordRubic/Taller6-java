@@ -1,0 +1,41 @@
+TALLER 6 - RESPUESTAS PARTE 4
+Integrante A: ___________________________
+Integrante B: ___________________________
+
+──────────────────────────────────────────
+1. ¿Cuál es la diferencia entre add("valor") y add(1, "valor")?
+
+RESPUESTA:add("valor") agrega un elemento al final de la lista, mientras que add(1, "valor") lo inserta específicamente en la posición 1, desplazando los demás elementos.
+
+
+──────────────────────────────────────────
+2. ¿Qué ocurre si intentas hacer ciudades.get(10) en una lista de 5 elementos?
+
+RESPUESTA:Si intentamos hacer ciudades.get(10) en una lista de 5 elementos, Java genera un error llamado IndexOutOfBoundsException, porque esa posición no existe.
+
+
+──────────────────────────────────────────
+3. ¿Por qué usamos ArrayList<Integer> y no ArrayList<int>?
+
+RESPUESTA: Usamos ArrayList<Integer> porque las colecciones de Java trabajan con objetos y no aceptan tipos primitivos directamente. Integer es la clase que representa al tipo primitivo int.
+
+
+──────────────────────────────────────────
+4. ¿Cuál es el orden de atención en una cola FIFO?
+   ¿Cuál sería el orden en una pila LIFO con addFirst/removeFirst?
+
+RESPUESTA:En una cola (FIFO), el primero en entrar es el primero en salir. En una pila (LIFO), el último en entrar es el primero en salir.
+
+
+──────────────────────────────────────────
+5. ¿Cuándo preferirías usar LinkedList sobre ArrayList y viceversa?
+
+RESPUESTA:Usaría LinkedList cuando necesito insertar o eliminar elementos frecuentemente. En cambio, usaría ArrayList cuando necesito consultar elementos por índice y recorrer la lista con frecuencia.
+
+
+──────────────────────────────────────────
+MODIFICACIONES REALIZADAS:
+Sección B (filtro >= 40 + suma):Se modificó el filtro para que ahora muestre los números mayores o iguales a 40 en lugar de 50. También se agregó una variable para sumar los números que cumplen con esa condición. El resultado fue [78, 56, 89, 45, 67], con una suma total de 335.
+
+Sección C (clientes 5 y 6 en cola):Se agregaron dos nuevos clientes, Cliente 5 y Cliente 6, al final de la cola mientras los primeros cuatro clientes todavía estaban esperando. Se mostró la cola actualizada antes de continuar con la atención, manteniendo el orden FIFO (primero en entrar, primero en salir).
+
